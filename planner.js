@@ -52,7 +52,7 @@ function prettyprint() {
 	for (var week=1; week<=nr_weeks; week++) {
 		var todays_topic = "";
 		var todays_weight = 0;
-		while(true) {
+		while(topics_index < topics.length) {
 			if (best_plan[topics_index]==week-1) {
 				todays_topic  += topics[topics_index].d + ", ";
 				todays_weight += topics[topics_index].w;
