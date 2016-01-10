@@ -1,3 +1,4 @@
+"use strict";
 
 // make adjustments in here %<--------------------
 var nr_weeks = 14;
